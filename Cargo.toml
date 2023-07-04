@@ -7,3 +7,40 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.3.0", features = ["derive"] }
+
+[[example]]
+name = "hello"
+path = "examples/hello.rs"
+
+[[example]]
+name = "subcmd"
+path = "examples/subcmd.rs"
+
+[[example]]
+name = "fix_post"
+path = "examples/fix_post.rs"
+
+[[example]]
+name = "arg_para"
+path = "examples/arg_para.rs"
+
+[[example]]
+name = "flag_para"
+path = "examples/flag_para.rs"
+
+[[example]]
+name = "option_para"
+path = "examples/option_para.rs"
+
+[[example]]
+name = "default"
+path = "examples/default.rs"
+
+[[example]]
+name = "verify"
+path = "examples/verify.rs"
+
+[[example]]
+name = "convert"
+path = "examples/convert.rs"
+
