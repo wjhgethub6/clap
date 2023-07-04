@@ -79,8 +79,8 @@ fn main() {
         Some(Commands::Test(name)) => {
             match name.string {
                 Some(ref name) => {
-                    let reverse = api::stringer::reverse(name);
-                    println!("{}",reverse);
+                    let test = api::stringer::test(name);
+                    println!("{}",test);
                 }
                 None => {
                     println!("Please provide a string to Test");

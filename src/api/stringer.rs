@@ -18,3 +18,7 @@ fn inspect_numbers(input:&String) -> i32 {
     }
     return count;
 }
+
+pub fn test(_input:&String) -> String {
+    String::from("This is a test")
+}
